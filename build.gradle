@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'application'        /* Needed for mainClassName property, also brings in the 'run' task */
+    id 'application'     
 }
 
 sourceSets {
