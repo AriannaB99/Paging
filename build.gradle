@@ -3,14 +3,10 @@ plugins {
     id 'application'        /* Needed for mainClassName property, also brings in the 'run' task */
 }
 
-sourceCompatibility = '1.8'
-targetCompatibility = '1.8'
-version = '1.0'
-
 sourceSets {
     main {
         java {
-            srcDirs = ['Assn6']
+            srcDirs = ['src']
         }
     }
 }
