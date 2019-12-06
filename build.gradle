@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'application'        /* Needed for mainClassName property, also brings in the 'run' task */
+}
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+version = '1.0'
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['Assn6']
+        }
+    }
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Assn6'
+    }
+}
+
+mainClassName = 'Assn6'
